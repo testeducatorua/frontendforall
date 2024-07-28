@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                <meta name='description' content='My first pr on next.js' />
+                <meta name='description' content='Це нова серія відео (друга половина 2024 року)за допомогою якої Ви зможете на кожному уроці паралельно вивчати HTML, CSS та мову програмування JavaScript.' />
                 <meta property="og:title" content={siteTitle} />
 
             </Head>
