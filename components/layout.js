@@ -6,7 +6,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
 const name = 'HTML+CSS+JS для всіх'
-export const siteTitle = 'first pr '
+export const siteTitle = '2024: HTML+CSS+JavaScript для всіх'
 
 export default function Layout({ children, home }) {
 
