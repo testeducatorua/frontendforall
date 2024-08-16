@@ -90,7 +90,6 @@ date: "2024-08-16 00:03"
   background: url(image.png) no-repeat center center / cover;
 }
 ```
-``
 
 # Більше інформації та можливостей:
 
