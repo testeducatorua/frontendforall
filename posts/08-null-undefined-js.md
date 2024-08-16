@@ -1,5 +1,5 @@
 ---
-title: "06-07-JavaScript: null та undefined"
+title: "08-JavaScript: null та undefined"
 date: "2024-08-16 00:02"
 ---
 
