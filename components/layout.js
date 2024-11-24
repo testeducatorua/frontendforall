@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Analytics } from "@vercel/analytics/react"
 
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -49,7 +50,10 @@ export default function Layout({ children, home }) {
                 }
             </header>
             
-            <main>{children}</main>
+            <main>
+                {children}
+                <Analytics />
+                </main>
 
                 {!home && (
                     <div>
