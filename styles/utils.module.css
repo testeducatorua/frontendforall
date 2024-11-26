@@ -47,6 +47,16 @@
     margin: 0 0 1.25rem;
   }
   
+  .nestedList {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 1rem;
+  }
+  
+  .nestedListItem {
+    margin: 0.25rem 0;
+  }
+  
   .lightText {
     color: #666;
   }
