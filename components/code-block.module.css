@@ -1,0 +1,78 @@
+.codeBlockWrapper {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.codeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--card-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid var(--card-border);
+  border-bottom: none;
+}
+
+.language {
+  font-size: 0.8rem;
+  color: var(--date-color);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.copyButton {
+  background: var(--background);
+  border: 1px solid var(--card-border);
+  color: var(--foreground);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.copyButton:hover {
+  background: var(--card-border);
+}
+
+.codeContainer {
+  display: flex;
+  background: var(--code-bg);
+  border-radius: 0 0 8px 8px;
+  border: 1px solid var(--card-border);
+}
+
+.lineNumbers {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+  background: var(--card-bg);
+  border-right: 1px solid var(--card-border);
+  user-select: none;
+}
+
+.lineNumber {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.8rem;
+  color: var(--date-color);
+  text-align: right;
+  padding: 0 0.5rem;
+  min-width: 1.5rem;
+}
+
+.pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  flex-grow: 1;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

@@ -1,6 +1,7 @@
 ---
-title: "04-05-HTML: елементи для таблиць"
-date: "2024-08-08 00:04"
+title: "05-HTML: елементи для таблиць"
+date: "2024-08-08 00:01"
+youtubeUrl: 'https://youtube.com/live/XV_0DsVZMuY'
 ---
 
 

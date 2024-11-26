@@ -1,3 +1,64 @@
+:root {
+  /* Dark theme (default) */
+  --background: #1e1e1e;
+  --foreground: #d4d4d4;
+  --link: #d4af37;
+  --link-hover: #b8960f;
+  --card-bg: #252526;
+  --card-border: #2d2d2d;
+  --date-color: #a0a0a0;  /* Світліший сірий для кращої контрастності */
+  --heading-color: #ffffff;
+  --code-bg: #2d2d2d;  /* Додано колір фону для коду */
+  --text-color: #d4d4d4;
+  --button-bg: #252526;
+  --button-hover-bg: #2d2d2d;
+  --border-color: #2d2d2d;
+}
+
+:root[data-theme='light'] {
+  --background: #ffffff;
+  --foreground: #333333;
+  --link: #8b7300;
+  --link-hover: #665400;
+  --card-bg: #f5f5f5;
+  --card-border: #e0e0e0;
+  --date-color: #666666;
+  --heading-color: #000000;
+  --code-bg: #f8f8f8;  /* Додано світлий колір фону для коду */
+  --text-color: #333333;
+  --button-bg: #f5f5f5;
+  --button-hover-bg: #e0e0e0;
+  --border-color: #e0e0e0;
+}
+
+/* Theme toggle styles */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--foreground);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--card-border);
+}
+
+.theme-toggle svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: var(--foreground);
+}
+
 html,
 body {
   padding: 0;
@@ -16,6 +77,8 @@ body {
     sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 * {
@@ -23,11 +86,12 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--link);
   text-decoration: none;
 }
 
 a:hover {
+  color: var(--link-hover);
   text-decoration: underline;
 }
 
@@ -36,10 +100,118 @@ img {
   display: block;
   border-radius: 50%;
 }
-pre{
- background-color: rgb(91, 131, 225);
- overflow-x: auto;
- padding: 20px;
- color: aliceblue;
- font-size: 14px;
+
+/* Code block styles */
+pre {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  background: var(--code-bg);
+  counter-reset: line;
+  overflow-x: auto;
+}
+
+pre .code-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: inherit;
+  border-bottom-left-radius: 0.5rem;
+  z-index: 1;
+}
+
+pre .copy-button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-color);
+  background: var(--button-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+pre .copy-button:hover {
+  background: var(--button-hover-bg);
+}
+
+pre .language-label {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+pre code {
+  display: block;
+  padding: 1rem 0;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.5;
+  tab-size: 2;
+}
+
+pre code > span {
+  display: inline-block;
+  padding-left: 4em;
+  position: relative;
+  width: 100%;
+}
+
+pre code > span:not(:empty):before {
+  content: counter(line);
+  counter-increment: line;
+  position: absolute;
+  left: 0;
+  padding: 0 1em;
+  color: #666;
+  text-align: right;
+  width: 2em;
+  user-select: none;
+}
+
+/* Inline code styles */
+:not(pre) > code {
+  background: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid var(--card-border);
+  font-family: 'Fira Code', monospace;
+}
+
+/* Стилі для кнопок та міток у блоках коду */
+.code-header {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.language-label {
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: uppercase;
+  font-family: 'Fira Code', monospace;
+}
+
+.copy-button {
+  background: transparent;
+  border: 1px solid var(--card-border);
+  color: var(--foreground);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: 'Fira Code', monospace;
+  transition: all 0.2s ease;
+}
+
+.copy-button:hover {
+  background: var(--card-border);
 }

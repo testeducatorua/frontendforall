@@ -1,11 +1,15 @@
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import '../styles/global.css'
+import '../styles/global.css';
+import { Analytics } from '@vercel/analytics/react';
+import { useRouter } from 'next/router';
+import Loading from '../components/loading';
 
-export default function App({Component, pageProps}) {
-    return (
-        <>
-          <Component {...pageProps} />
-          <SpeedInsights />
-        </>
-      );
+export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }

@@ -1,6 +1,7 @@
 ---
 title: "03-JavaScript: числовий тип даних"
-date: "2024-08-01 00:02"
+date: "2024-08-01 00:03"
+youtubeUrl: "https://www.youtube.com/live/uuwLgaPd60c"
 ---
 
 ## Тип даних number
