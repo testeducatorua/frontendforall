@@ -64,6 +64,17 @@
     border-color: var(--link);
   }
   
+  @media (max-width: 768px) {
+    .list {
+      gap: 1rem;
+    }
+
+    .listItem {
+      flex: 0 1 100%;
+      max-width: 100%;
+    }
+  }
+  
   .nestedList {
     list-style: none;
     padding: 0;
