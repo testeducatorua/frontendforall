@@ -2,6 +2,7 @@
 title: "08-CSS: background"
 date: "2024-08-16 00:02"
 youtubeUrl: 'https://youtube.com/live/TS47hVEvJZA'
+practic: true
 ---
 
 Властивість `background` в CSS використовується для встановлення фону елементів. Фон може бути кольором, зображенням або градієнтом.

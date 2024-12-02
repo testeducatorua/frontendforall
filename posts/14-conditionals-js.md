@@ -2,6 +2,7 @@
 title: "14-JavaScript: прийняття рішень в коді"
 date: "2024-09-08 00:03"
 youtubeUrl: "https://youtube.com/live/b8ByQ93_QD4"
+practic: true
 ---
 JavaScript надає різні умовні конструкції, які дозволяють управляти потоком виконання програми на основі певних умов.
 

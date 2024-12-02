@@ -2,6 +2,7 @@
 title: "10-Верстаємо лендінг з нуля-2"
 date: "2024-08-20 00:04"
 youtubeUrl: "https://youtube.com/live/8iw5fKnj83ss"
+practic: true
 ---
 ## Поточний урок не містить теоретичних матеріалів
 

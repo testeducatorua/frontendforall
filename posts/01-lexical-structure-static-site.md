@@ -2,6 +2,7 @@
 title: '01-Лексична структура статичного багатосторінкового сайту'
 date: '2024-07-28 00:04'
 youtubeUrl: 'https://youtube.com/live/TKBEOq9vTUo'
+practic: false
 ---
 
 ## Файлова структура

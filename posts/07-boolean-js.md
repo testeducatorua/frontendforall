@@ -2,6 +2,7 @@
 title: "07-JavaScript: тип даних Boolean"
 date: "2024-08-13 00:03"
 youtubeUrl: 'https://youtube.com/live/PO6i0BDB4_M'
+practic: true
 ---
 
 ## Створення значень типу Boolean

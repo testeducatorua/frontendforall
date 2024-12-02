@@ -2,6 +2,7 @@
 title: "14-CSS: flexbox layout"
 date: "2024-09-08 00:02"
 youtubeUrl: "https://youtube.com/live/b8ByQ93_QD4"
+practic: true
 ---
 
 ## Що таке Flexbox?

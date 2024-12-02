@@ -2,6 +2,7 @@
 title: "02-Твій перший код: HTML "
 date: "2024-07-30 00:01"
 youtubeUrl: 'https://youtube.com/live/0tIg3aHPF5c'
+practic: true
 ---
 
 ## Текстовий контент для першої сторінки

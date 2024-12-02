@@ -2,6 +2,7 @@
 title: "13-АДАПТУЄМО лендінг"
 date: "2024-09-04 00:04"
 youtubeUrl: "https://youtube.com/live/3Kv6HeMhjG0"
+practic: true
 ---
 ## Поточний урок не містить теоретичних матеріалів
 

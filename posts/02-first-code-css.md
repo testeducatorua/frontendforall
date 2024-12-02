@@ -2,6 +2,7 @@
 title: "02-Твій перший код: CSS "
 date: "2024-07-30 00:02"
 youtubeUrl: 'https://youtube.com/live/0tIg3aHPF5c'
+practic: true
 ---
 
 ## Додавання селекторів по типу елементів

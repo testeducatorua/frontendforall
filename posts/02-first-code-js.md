@@ -2,6 +2,7 @@
 title: "02-Твій перший код: JavaScript"
 date: "2024-07-30 00:03"
 youtubeUrl: 'https://youtube.com/live/0tIg3aHPF5c'
+practic: true
 ---
 
 ## Місце для коду JS

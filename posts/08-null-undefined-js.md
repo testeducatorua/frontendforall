@@ -2,6 +2,7 @@
 title: "08-JavaScript: null та undefined"
 date: "2024-08-16 00:03"
 youtubeUrl: 'https://youtube.com/live/TS47hVEvJZA'
+practic: true
 ---
 
 `null` та `undefined` - це два окремих типи даних у JavaScript, що використовуються для позначення відсутності значення або ненадання значення змінній.

@@ -2,6 +2,7 @@
 title: "05-CSS: селектори бувають різні"
 date: "2024-08-08 00:02"
 youtubeUrl: 'https://youtube.com/live/XV_0DsVZMuY'
+practic: true
 ---
 
 ## Введення

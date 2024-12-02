@@ -2,6 +2,7 @@
 title: "06-Верстаємо ДВА різних компоненти по figma-макету"
 date: "2024-08-11 00:04"
 youtubeUrl: "https://youtube.com/live/IWsS_mqaLF0"
+practic: true
 ---
 ## Поточний урок не містить теоретичних матеріалів
 

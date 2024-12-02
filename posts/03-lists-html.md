@@ -2,6 +2,7 @@
 title: "03-HTML: елементи для списків"
 date: "2024-08-01 00:01"
 youtubeUrl: "https://www.youtube.com/live/uuwLgaPd60c"
+practic: true
 ---
 
 ## Текстове представлення списків

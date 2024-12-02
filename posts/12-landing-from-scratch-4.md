@@ -2,6 +2,7 @@
 title: "12-ПРО FRONTEND - особливе відео"
 date: "2024-08-25 00:04"
 youtubeUrl: "https://youtube.com/live/KYnSxbkhbsI"
+
 ---
 ## Поточний урок не містить теоретичних матеріалів
 

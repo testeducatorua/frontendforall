@@ -2,6 +2,7 @@
 title: "01-Лексична структура JavaScript"
 date: "2024-07-28 00:03"
 youtubeUrl: 'https://youtube.com/live/TKBEOq9vTUo'
+practic: false
 ---
 
 **JavaScript** — це динамічна, об'єктно-орієнтована мова програмування, яка використовується для створення інтерактивних веб-сайтів.

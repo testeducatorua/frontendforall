@@ -2,6 +2,7 @@
 title: "14-HTML: семантична структура"
 date: "2024-09-08 00:01"
 youtubeUrl: "https://youtube.com/live/b8ByQ93_QD4"
+practic: true
 ---
 
 ## Семантика в HTML
@@ -68,7 +69,7 @@ youtubeUrl: "https://youtube.com/live/b8ByQ93_QD4"
         </section>
     </main>
     <footer>
-        <p>© 2024 Мій веб-сайт</p>
+        <p> 2024 Мій веб-сайт</p>
     </footer>
 </body>
 ```

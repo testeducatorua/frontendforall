@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Analytics } from "@vercel/analytics/react"
 import ThemeToggle from './theme-toggle';
+import Footer from './footer'
 
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -53,16 +54,17 @@ export default function Layout({ children, home }) {
                 }
             </header>
             
-            <main>
+            <main className={styles.mainContent}>
                 {children}
                 <Analytics />
-                </main>
+            </main>
 
                 {!home && (
                     <div>
                         <Link href="/">На головну</Link>
                     </div>
                 )}
+                <Footer />
         </div>
     )
 }

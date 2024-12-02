@@ -2,6 +2,7 @@
 title: "07-HTML: блочні та лінійні елементи"
 date: "2024-08-13 00:01"
 youtubeUrl: 'https://youtube.com/live/PO6i0BDB4_M'
+practic: true
 ---
 
 ## Основні блочні та лінійні елементи

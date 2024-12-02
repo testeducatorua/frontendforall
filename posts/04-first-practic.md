@@ -2,6 +2,7 @@
 title: "04-Верстаємо твою першу сторінку по figma-макету"
 date: "2024-08-04 00:04"
 youtubeUrl: "https://youtube.com/live/4BErJmKEgD8"
+practic: true
 ---
 
 ## Поточний урок не містить теоретичних матеріалів

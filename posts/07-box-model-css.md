@@ -2,6 +2,7 @@
 title: "07-CSS: box-model"
 date: "2024-08-13 00:02"
 youtubeUrl: 'https://youtube.com/live/PO6i0BDB4_M'
+practic: true
 ---
 
 ## Введення

@@ -2,6 +2,7 @@
 title: "03-CSS: шрифти (Google Fonts) "
 date: "2024-08-01 00:02"
 youtubeUrl: "https://www.youtube.com/live/uuwLgaPd60c"
+practic: true
 ---
 
 ## Google fonts

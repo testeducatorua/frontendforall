@@ -2,6 +2,7 @@
 title: "08-HTML: елементи для навігації"
 date: "2024-08-16 00:01"
 youtubeUrl: 'https://youtube.com/live/TS47hVEvJZA'
+practic: true
 ---
 
 ## Основні теги для навігації

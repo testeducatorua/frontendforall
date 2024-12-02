@@ -1,0 +1,46 @@
+.footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--card-border);
+  background-color: var(--card-bg);
+}
+
+.container {
+  max-width: 72rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--date-color);
+  font-size: 0.9rem;
+}
+
+.copyright a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.copyright a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.license {
+  font-size: 0.85rem;
+  color: var(--date-color);
+  text-align: center;
+}
+
+.license p {
+  margin: 0.5rem 0;
+}
+
+.disclaimer {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 1rem;
+}
