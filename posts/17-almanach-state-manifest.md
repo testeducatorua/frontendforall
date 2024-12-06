@@ -2,7 +2,7 @@
 title: "17-PRO дещо новеньке"
 date: "2024-11-23 00:04"
 youtubeUrl: "https://youtube.com/live/9le4sduz2Qg"
-practic: true
+practic: false
 ---
 ## Поточний урок не містить теоретичних матеріалів
 
